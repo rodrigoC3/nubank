@@ -9,13 +9,36 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+ <style>
+ 
   .pcontainer{
-  background-image: url(../image/woman-bus@3x.jpg);
-  height: 100%;
+  background-image: url(Imagenes/woman-bus@3x.jpg);
+  height: 605px;
   width: 100% ;
   background-size: cover;
-  padding: 80px;
- }
+  padding: 40px;
+  }
+  .img-mobile{ 
+    margin-top: 110px;
+    margin-left: 120px
+  }
+  .title_header{
+    font-size: 48px;
+    color: #fff;
+    width: 473px;
+  }
+  .title_header_1{
+    font-size:  18px;
+    display: block;
+    margin-top: 30px;
+    width: 287px;
+  }
+  .btn_custom_1{
+    background-color: rgb(138, 5, 190);
+
+  }
+</style>
+
 </head>
 
 <body>
@@ -39,7 +62,7 @@
           aria-haspopup="true" aria-expanded="false">
           Rewards
         </a>
-<     </li>
+     </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Loans</a>
       </li>
@@ -57,13 +80,18 @@
   </div>
 </nav>
 <div class="container">
-  <div class="row pcontainer">
+  <div class="row pcontainer" >
      <div class="col-md">
-       <img class="img-fluid" src="Imagenes/nubank1.jpg" alt="Chania">
-     </div>  
+      <span class="title_header">
+        Being Nubank means having a simplified financial life.
+      </span> 
+      <span class="title_header_1">
+        NuConta gives you better returns than a savings account and our credit card is annuity-free.
+      </span>
+      <button type="button" class="btn btn-primary btn-lg btn_custom_1">Large button</button>
+      </div>
      <div class="col-md">
-      <img src="Imagenes/nubank11.png" class="float-right" width="404"
-        style="position: absolute; margin-left: 700px; margin-top: 260px;">
+      <img src="Imagenes/nubank11.png"  width="370" class="img-mobile" >
      </div>
   </div>
 </div>
